@@ -8,7 +8,7 @@
 <br>
 
 
-## Chat NodeJS com Socket.io 
+## Celke - Semana de Imersão ao Node.js, React e React Native
 
 ## 🚀 Tecnologias
 
@@ -18,14 +18,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) 
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
 - [NodeJS](https://nodejs.org/en/) - v14.4.0
-- [CDNJS](https://cdnjs.com/libraries/qs) - 6.9.6
+- [NextJS](https://nextjs.org/)
 
 
 ## 💻 Projeto
 
-O projeto é um chat com NodeJS, Express e Socket.io
-
-Projeto feito acompanado o video [aqui](https://www.youtube.com/watch?v=jD7FnbI76Hg)
+Esse projeto é um site.
+Projeto desenvolvido acompanhado as aulas do Celke na semana de Imersão ao Node.js, React e React Native.
+Canal [aqui](https://www.youtube.com/channel/UC5ClMRHFl8o_MAaO4w7ZYug)
 
 <p align="center">
   <img alt="pagina inicial" src=".github/imagem1.PNG" width="100%">
@@ -35,15 +35,11 @@ Projeto feito acompanado o video [aqui](https://www.youtube.com/watch?v=jD7FnbI7
   <img alt="Chat" src=".github/imagem2.PNG" width="100%">
 </p>
 
-<p align="center">
-  <img alt="Chat" src=".github/animated.gif" width="100%">
-</p>
-
 ## 🚀 Como Rodar
 
  - Clone o projeto.
  - Entre na pasta do projeto e rode o comando "npm install" para instalar as dependências.
- - Rode "npm dev" para iniciar o servidor.
+ - Rode "npm run dev" para iniciar o servidor.
  - Para testar acesse localhost:3000.
 
 ## 🤔 Como contribuir
