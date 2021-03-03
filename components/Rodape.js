@@ -19,7 +19,7 @@ const Rodape = () => {
                     }
                 `}
             </style>
-            <Container>
+            <Container className="text-center">
                 <h1 className="lead">Rodapé</h1>
             </Container>
         </Jumbotron>

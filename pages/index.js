@@ -5,6 +5,7 @@ import {
 } from 'reactstrap';
 
 import Menu from '../components/Menu';
+import Rodape from '../components/Rodape';
 
 function Home() {
     return (
@@ -81,6 +82,7 @@ function Home() {
                     </div>
                 </Container>
             </Jumbotron>
+            <Rodape />
         </div>
 
     );
