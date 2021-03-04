@@ -7,8 +7,7 @@
 
 <br>
 
-
-## Celke - Semana de Imersão ao Node.js, React e React Native
+# Celke - Semana de Imersão ao Node.js, React e React Native
 
 ## 🚀 Tecnologias
 
@@ -20,11 +19,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [NodeJS](https://nodejs.org/en/) - v14.4.0
 - [NextJS](https://nextjs.org/)
 
-
 ## 💻 Projeto
 
-Esse projeto é um site.
+Esse projeto é um site usado para aprender NextJS, NodeJS e Reactstrap.
 Projeto desenvolvido acompanhado as aulas do Celke na semana de Imersão ao Node.js, React e React Native.
+
+Esse projeto consome a [API](https://github.com/jamangueira7/celke-api)
+
 Canal [aqui](https://www.youtube.com/channel/UC5ClMRHFl8o_MAaO4w7ZYug)
 
 <p align="center">
