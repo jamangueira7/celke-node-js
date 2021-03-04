@@ -39,6 +39,8 @@ function Orcamento() {
     const sendOrcamento = async (e) => {
         e.preventDefault();
 
+        setResponse({ formSave: true });
+
         try {
             const res = await fetch(`http://localhost:3333/orcamento`, {
                 method: 'POST',
@@ -50,11 +52,13 @@ function Orcamento() {
 
             if(responseEnv.error) {
                 setResponse({
+                    formSave: false,
                     type: 'error',
                     message: responseEnv.message
                 });
             }else {
                 setResponse({
+                    formSave: false,
                     type: 'success',
                     message: responseEnv.message
                 });
@@ -62,6 +66,7 @@ function Orcamento() {
 
         } catch (err) {
             setResponse({
+                formSave: false,
                 type: 'error',
                 message: "Erro: Orçamento não enviado com sucesso!"
             });
@@ -102,7 +107,7 @@ function Orcamento() {
             <Jumbotron fluid className="form-orcamento">
                 <Container>
 
-                    {response.type === 'erro' ? <Alert color="danger">{response.message}</Alert> : ""}
+                    {response.type === 'error' ? <Alert color="danger">{response.message}</Alert> : ""}
                     {response.type === 'success' ? <Alert color="success">{response.message}</Alert> : ""}
 
 
@@ -162,7 +167,10 @@ function Orcamento() {
                             />
                         </FormGroup>
 
-                        <Button type="submit" outline color="primary">Solicitar</Button>
+                        {response.formSave
+                            ? <Button type="submit" outline color="danger" disable>Enviado...</Button>
+                            : <Button type="submit" outline color="primary">Solicitar</Button> }
+
                     </Form>
                 </Container>
             </Jumbotron>
